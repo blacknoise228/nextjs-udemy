@@ -1,10 +1,9 @@
-/* Стили для header */
 .header {
-    display: flex;            /* Делаем контейнер flex */
-    justify-content: space-between; /* Раздвигаем логотип и меню */
-    align-items: center;      /* Выравниваем элементы по центру */
-    padding: 15px 30px;       /* Отступы сверху и по бокам */
-    color: white;             /* Белый текст */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
     width: 99%;
     margin: 10px auto;
     background: linear-gradient(135deg, #1a1a1a, #252525);
@@ -13,20 +12,20 @@
   }
   
   .logo {
-    display: flex;            /* Делаем flex-контейнер */
-    align-items: center;      /* Центрируем по вертикали */
-    gap: 10px;                /* Отступ между картинкой и текстом */
-    font-size: 20px;          /* Увеличиваем размер шрифта */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
     font-weight: bold;
-    text-decoration: none;     /* Убираем подчеркивание */
-    color: rgb(9, 246, 179);
+    text-decoration: none;
+    color: rgb(9, 246, 214);
+    text-shadow: 0 0 5px #00ffcc;
   }
   
-  /* Навигация */
   .navList {
-    display: flex;            /* Элементы меню в ряд */
-    gap: 20px;                /* Отступы между ссылками */
-    list-style: none;         /* Убираем маркеры списка */
+    display: flex;            
+    gap: 20px;                
+    list-style: none;         
     padding: 0;
     margin: 0;
   }
@@ -36,20 +35,5 @@
   }
   
   .navList li:hover {
-    transform: scale(1.1);    /* Эффект увеличения при наведении */
+    transform: scale(1.2);    
   }
-  
-  .navList a {
-    text-decoration: none;    /* Убираем подчеркивание */
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .navList a:hover {
-    background-color: rgba(9, 246, 242, 0.507); /* Полупрозрачный фон */
-  }
-  

@@ -1,4 +1,3 @@
-import inStyle from "./signin.module.css";
 import upStyle from "./signup.module.css";
 
 export function SignUpButton() {

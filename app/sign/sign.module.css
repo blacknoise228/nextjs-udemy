@@ -14,13 +14,13 @@
   
   .title {
     text-align: center;
-    color: #00ffff;
+    color: rgb(9, 246, 191);
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 2rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    text-shadow: 0 0 10px #00ffff;
+    text-shadow: 0 0 10px #00eeff;
   }
   
   .buttons {
