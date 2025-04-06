@@ -1,0 +1,53 @@
+.user {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(9, 246, 242, 0.507);
+    color: rgba(9, 246, 214, 0.71);
+    border-color: aqua;
+    border-radius: 15px;
+    padding: 1vb;
+    margin-bottom: 2vh;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .userContainer {
+    padding: 3rem;
+  }
+  
+  .userInfo {
+    text-align: center;
+  }
+  
+  .userInfo img {
+    width: 300px;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .wishes {
+    margin-top: 2rem;
+  }
+  
+  .wishes ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .wishes li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 1rem;
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .endMessage {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #666;
+  }
+  
